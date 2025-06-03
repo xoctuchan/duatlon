@@ -1,0 +1,10 @@
+com\pablix\tiempos\controllers\RunnerController.class
+com\pablix\tiempos\services\impl\RunnerServiceImpl.class
+com\pablix\tiempos\models\Runner.class
+com\pablix\tiempos\models\Runner$RunnerBuilder.class
+com\pablix\tiempos\services\RunnerService.class
+com\pablix\tiempos\models\Genero.class
+com\pablix\tiempos\TiemposApplication.class
+com\pablix\tiempos\response\ApiResponseBuilder.class
+com\pablix\tiempos\repositories\RunnerRepository.class
+com\pablix\tiempos\response\ApiResponse.class
