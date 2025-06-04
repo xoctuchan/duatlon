@@ -10,9 +10,7 @@ RUN mkdir -p /app/jars
 COPY target/tiempos-0.0.1-SNAPSHOT.jar /app/jars/tiempos-0.0.1-SNAPSHOT.jar
 
 
-RUN apt-get update && \
-    apt-get install -y postgresql-client && \
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y postgresql-client
 
 RUN pg_isready -h db.wionppapgytecjiogdio.supabase.co -p 5432
 
